@@ -10,6 +10,7 @@ The code column in the dy_country table holds the code for the country in Upperc
 
 If you are going to use this in your web project then put the flags directory inside the image directory of your project.
 
+```
 /
 |
 +-- css
@@ -25,13 +26,14 @@ If you are going to use this in your web project then put the flags directory in
 |   +- jquery.js
 |
 +-- resource
+```
 
 When you fetch the code value from the dy_country table you can perform the following to create image link.
 
 Code in php
-
+```
 //assume $result holds the columns of the returned row from the dy_country table
 //WEBSITE_BASE_URL replace it with your website url like http://www.example.com/
 $code = $result['code'];
 $flag_image_link = WEBSITE_BASE_URL . '/image/flags/' . $code . '.png';
-
+```

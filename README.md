@@ -1,8 +1,6 @@
 # mysql-country-with-flag
 List of Country and Country Code with Flag
 
-[Click here to see the result](https://www.dyclassroom.com/reference/list-of-country-and-country-code-with-flag)
-
 I have set the table name as country. Feel free to change the table name as per your project needs.
 Flag images are inside the flag directory.
 
